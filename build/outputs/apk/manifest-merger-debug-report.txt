@@ -36,6 +36,10 @@ uses-permission#com.sec.android.app.servicemodeapp.permission.KEYSTRING
 ADDED from AndroidManifest.xml:13:5
 	android:name
 		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
 permission#com.sec.android.phone.permission.WRITE_OTA_KEYSTRING
 ADDED from AndroidManifest.xml:15:5
 	android:label
@@ -44,10 +48,6 @@ ADDED from AndroidManifest.xml:15:5
 		ADDED from AndroidManifest.xml:18:9
 	android:name
 		ADDED from AndroidManifest.xml:16:9
-android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from AndroidManifest.xml:20:5
-	android:name
-		ADDED from AndroidManifest.xml:20:30
 application
 ADDED from AndroidManifest.xml:22:5
 MERGED from com.android.support:appcompat-v7:19.1.0:19:5

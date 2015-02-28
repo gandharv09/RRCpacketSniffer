@@ -22,4 +22,4 @@
           android:singleLine="true"
           android:layout_width="match_parent"
           android:layout_height="?attr/dropdownListPreferredItemHeight"
-          android:ellipsize="marquee"/><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/klp-ub-dev/frameworks/support/v7/appcompat/res/layout/support_simple_spinner_dropdown_item.xml --><!-- From: file:/B:/Android%20Studio%20Projects/log3GState/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/support_simple_spinner_dropdown_item.xml -->
+          android:ellipsize="marquee"/><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/klp-ub-dev/frameworks/support/v7/appcompat/res/layout/support_simple_spinner_dropdown_item.xml --><!-- From: file:/B:/Android%20Studio%20Projects/RRCpacketSniffer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/support_simple_spinner_dropdown_item.xml -->
