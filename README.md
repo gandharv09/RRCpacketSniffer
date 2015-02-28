@@ -3,32 +3,35 @@ RRCpacketSniffer is an android application which can be used for capturing tcp u
 
 The application is working implementation of the tool discussed in this research paper [Android phone based appraisal of app behavior on cell networks](http://dl.acm.org/citation.cfm?id=2593916)
 
-# Description
+## Description
 Quantifying an application’s signaling eﬃciency requires information about:
 * (a) The data packets that were exchanged. 
 * (b) The RRC state transitions that took place.. 
 
 Unlike the existing applications and tools, this application neither requires any special hardware, nor retrieves RRC state in an oﬄine manner using a simulator. 
 The functionality of the tool is split into two parts, the **Packet Sniffer** and the **RRC State Logger**.
+  
+  
 
+![](https://github.com/gandharv09/RRCpacketSniffer/blob/master/src/main/res/drawable-hdpi/SC20150301-0330301.png) ![](https://github.com/gandharv09/RRCpacketSniffer/blob/master/src/main/res/drawable-hdpi/SC20150301-0330131.png)
 
-# Packet Sniffer 
+### Packet Sniffer 
 The packet sniﬀer uses *C_packetCapture* a binary executable of libpcap, built using libpcap source code and Android NDK. The executable is launched in a shell with superuser privileges.
 The packet sniﬀer enables us to capture all uplink and downlink packets associated with a network interface, and stores the packet timestamp and header information corresponding to IP, UDP, TCP, and ICMP protocols, in a log.text ﬁle.
-#RRC State Logger
+###RRC State Logger
 For Retrieving RRC States, we adopt a novel approach to ﬁnd and record the actual RRC state of the device at any given instant. Android Secret codes are required to switch to RRC service mode. 
 Currently we have secret codes for limited samsung devices, though a wide variety of secret codes are available for different manufacturers.
 
 The detailed explaination of calucalting an application's signalling efficiency from the data collected above is described in this paper [Android phone based appraisal of app behavior on cell networks](http://dl.acm.org/citation.cfm?id=2593916)
 
-# Authors & Contributors
+## Authors & Contributors
 * Gandharv Kapoor, Indraprastha Institute of Information Technology, Delhi
 * Nikita Jain, Indraprastha Institute of Information Technology, Delhi
 * Shaifali Gupta, Indraprastha Institute of Information Technology, Delhi
 * Rashi Garg, Indraprastha Institute of Information Technology, Delhi
 * [Vinayak Naik](http://www.iiitd.edu.in/~naik/), Indraprastha Institute of Information Technology, Delhi
 
-# License
+## License
 
 Copyright (c), Indraprastha Institute of Information Technology Delhi
 
