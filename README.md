@@ -11,6 +11,7 @@ Quantifying an application’s signaling eﬃciency requires information about:
 Unlike the existing applications and tools, this application neither requires any special hardware, nor retrieves RRC state in an oﬄine manner using a simulator. 
 The functionality of the tool is split into two parts, the **Packet Sniffer** and the **RRC State Logger**.
 
+
 # Packet Sniffer 
 The packet sniﬀer uses *C_packetCapture* a binary executable of libpcap, built using libpcap source code and Android NDK. The executable is launched in a shell with superuser privileges.
 The packet sniﬀer enables us to capture all uplink and downlink packets associated with a network interface, and stores the packet timestamp and header information corresponding to IP, UDP, TCP, and ICMP protocols, in a log.text ﬁle.
