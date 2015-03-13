@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/B:/Android%20Studio%20Projects/RRCpacketSniffer/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="Action_arrays">
+        <item>Packet and RRC both</item>
+        <item>Packet only</item>
+        <item>RRC only</item>
+    </string-array>
+    <string-array name="Device_arrays">
+        <item>Samsung S3 or higher</item>
+        <item>Samsung S2 or lower</item>
+    </string-array>
     <!-- From: file:/B:/Android%20Studio%20Projects/RRCpacketSniffer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="actionBarDivider"/>
@@ -131,10 +142,13 @@
     <integer name="abc_max_action_buttons">2</integer>
     <!-- From: file:/B:/Android%20Studio%20Projects/RRCpacketSniffer/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="Note">Note: Check RRC.txt for RRC state capture and log.txt for Packet capture in sdcard.</string>
+    <string name="Ask">Your device is :</string>
+    <string name="Note">Instruction: \r\n1. Select device.\r\n2. Select action and click Start capture.\r\n3. Click Log capture to Stop capture.
+        \r\n4. Check RRC.txt for RRC state capture and log.txt for Packet capture in sdcard.</string>
     <string name="PacketSniffer">Packet Sniffer</string>
     <string name="RRCLog">Log Capture </string>
-    <string name="RunRRC">Run Capture</string>
+    <string name="Run">Run Capture :</string>
+    <string name="RunRRC">Start Capture</string>
     <!-- From: file:/B:/Android%20Studio%20Projects/RRCpacketSniffer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
