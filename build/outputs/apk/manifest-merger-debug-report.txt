@@ -71,7 +71,7 @@ ADDED from AndroidManifest.xml:30:13
 		ADDED from AndroidManifest.xml:31:17
 	android:scheme
 		ADDED from AndroidManifest.xml:32:17
-activity#com.example.RRCpacketSniffer.MainActivity
+activity#com.iiitd.RRCpacketSniffer.MainActivity
 ADDED from AndroidManifest.xml:35:9
 	android:label
 		ADDED from AndroidManifest.xml:37:13
@@ -87,7 +87,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:41:17
 	android:name
 		ADDED from AndroidManifest.xml:41:27
-service#com.example.RRCpacketSniffer.PacketSniffer
+service#com.iiitd.RRCpacketSniffer.PacketSniffer
 ADDED from AndroidManifest.xml:45:9
 	android:exported
 		ADDED from AndroidManifest.xml:48:13

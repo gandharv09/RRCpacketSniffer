@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.RRCpacketSniffer.test">
+    package="com.iiitd.RRCpacketSniffer.test">
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.RRCpacketSniffer"
+                     android:targetPackage="com.iiitd.RRCpacketSniffer"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.RRCpacketSniffer"/>
+                     android:label="Tests for com.iiitd.RRCpacketSniffer"/>
 </manifest>

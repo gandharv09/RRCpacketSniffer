@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.RRCpacketSniffer"
+    package="com.iiitd.RRCpacketSniffer"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -33,7 +33,7 @@
         </intent-filter>
 
         <activity
-            android:name="com.example.RRCpacketSniffer.MainActivity"
+            android:name="com.iiitd.RRCpacketSniffer.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,7 +43,7 @@
         </activity>
 
         <service
-            android:name="com.example.RRCpacketSniffer.PacketSniffer"
+            android:name="com.iiitd.RRCpacketSniffer.PacketSniffer"
             android:enabled="true"
             android:exported="true" >
         </service>
