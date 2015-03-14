@@ -7,8 +7,8 @@ The application is working implementation of the tool discussed in this research
 
 ## Description
 Quantifying an application’s signaling eﬃciency requires information about:
-* (a) The data packets that were exchanged. 
-* (b) The RRC state transitions that took place.. 
+* The data packets that were exchanged. 
+* The RRC state transitions that took place.. 
 
 Unlike the existing applications and tools, this application neither requires any special hardware, nor retrieves RRC state in an oﬄine manner using a simulator. 
 The functionality of the tool is split into two parts, the **Packet Sniffer** and the **RRC State Logger**.
@@ -17,6 +17,7 @@ The functionality of the tool is split into two parts, the **Packet Sniffer** an
 
 ![](https://github.com/gandharv09/RRCpacketSniffer/blob/master/SC20150314-030848.png) ![](https://github.com/gandharv09/RRCpacketSniffer/blob/master/SC20150301-0330131.png)
 
+
 ### Packet Sniffer 
 The packet sniﬀer uses *C_packetCapture* a binary executable of libpcap, built using libpcap source code and Android NDK. The executable is launched in a shell with superuser privileges.
 The packet sniﬀer enables us to capture all uplink and downlink packets associated with a network interface, and stores the packet timestamp and header information corresponding to IP, UDP, TCP, and ICMP protocols, in a log.text ﬁle.
@@ -24,7 +25,10 @@ The packet sniﬀer enables us to capture all uplink and downlink packets associ
 For Retrieving RRC States, we adopt a novel approach to ﬁnd and record the actual RRC state of the device at any given instant. Android Secret codes are required to switch to RRC service mode. 
 Currently we have secret codes for limited samsung devices, though a wide variety of secret codes are available for different manufacturers.
 
-The detailed explaination of calucalting an application's signalling efficiency from the data collected above is described in this paper [Android phone based appraisal of app behavior on cell networks](http://dl.acm.org/citation.cfm?id=2593916)
+The detailed explaination of calucalting an application's signalling efficiency from the data collected is described in this paper [Android phone based appraisal of app behavior on cell networks](http://dl.acm.org/citation.cfm?id=2593916)
+
+## Devices Supported
+The application currently supports all major Samsung devices ranging from Galaxy S to Galaxy S5 and **requires root permission for full functionality**. We are working to extend this to other device brands as well.
 
 ## Authors & Contributors
 * Gandharv Kapoor, Indraprastha Institute of Information Technology, Delhi
