@@ -37,61 +37,53 @@ ADDED from AndroidManifest.xml:13:5
 	android:name
 		ADDED from AndroidManifest.xml:13:22
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from AndroidManifest.xml:14:5
-	android:name
-		ADDED from AndroidManifest.xml:14:22
-permission#com.sec.android.phone.permission.WRITE_OTA_KEYSTRING
 ADDED from AndroidManifest.xml:15:5
-	android:label
-		ADDED from AndroidManifest.xml:17:9
-	android:protectionLevel
-		ADDED from AndroidManifest.xml:18:9
 	android:name
-		ADDED from AndroidManifest.xml:16:9
+		ADDED from AndroidManifest.xml:15:22
 application
-ADDED from AndroidManifest.xml:22:5
+ADDED from AndroidManifest.xml:19:5
 MERGED from com.android.support:appcompat-v7:19.1.0:19:5
 	android:label
-		ADDED from AndroidManifest.xml:25:9
+		ADDED from AndroidManifest.xml:22:9
 	android:allowBackup
-		ADDED from AndroidManifest.xml:23:9
+		ADDED from AndroidManifest.xml:20:9
 	android:icon
-		ADDED from AndroidManifest.xml:24:9
+		ADDED from AndroidManifest.xml:21:9
 	android:theme
-		ADDED from AndroidManifest.xml:26:9
+		ADDED from AndroidManifest.xml:23:9
 intent-filter#android.provider.Telephony.SECRET_CODE
-ADDED from AndroidManifest.xml:27:9
+ADDED from AndroidManifest.xml:24:9
 action#android.provider.Telephony.SECRET_CODE
-ADDED from AndroidManifest.xml:28:13
+ADDED from AndroidManifest.xml:25:13
 	android:name
-		ADDED from AndroidManifest.xml:28:21
+		ADDED from AndroidManifest.xml:25:21
 data
-ADDED from AndroidManifest.xml:30:13
+ADDED from AndroidManifest.xml:27:13
 	android:host
-		ADDED from AndroidManifest.xml:31:17
+		ADDED from AndroidManifest.xml:28:17
 	android:scheme
-		ADDED from AndroidManifest.xml:32:17
+		ADDED from AndroidManifest.xml:29:17
 activity#com.iiitd.RRCpacketSniffer.MainActivity
-ADDED from AndroidManifest.xml:35:9
+ADDED from AndroidManifest.xml:32:9
 	android:label
-		ADDED from AndroidManifest.xml:37:13
+		ADDED from AndroidManifest.xml:34:13
 	android:name
-		ADDED from AndroidManifest.xml:36:13
+		ADDED from AndroidManifest.xml:33:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:38:13
+ADDED from AndroidManifest.xml:35:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:39:17
+ADDED from AndroidManifest.xml:36:17
 	android:name
-		ADDED from AndroidManifest.xml:39:25
+		ADDED from AndroidManifest.xml:36:25
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:41:17
+ADDED from AndroidManifest.xml:38:17
 	android:name
-		ADDED from AndroidManifest.xml:41:27
+		ADDED from AndroidManifest.xml:38:27
 service#com.iiitd.RRCpacketSniffer.PacketSniffer
-ADDED from AndroidManifest.xml:45:9
+ADDED from AndroidManifest.xml:42:9
 	android:exported
-		ADDED from AndroidManifest.xml:48:13
+		ADDED from AndroidManifest.xml:45:13
 	android:enabled
-		ADDED from AndroidManifest.xml:47:13
+		ADDED from AndroidManifest.xml:44:13
 	android:name
-		ADDED from AndroidManifest.xml:46:13
+		ADDED from AndroidManifest.xml:43:13

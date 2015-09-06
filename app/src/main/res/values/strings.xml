@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RRCpacketSniffer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="RunRRC">Start Capture</string>
+    <string name="RRCLog">Log Capture </string>
+    <string name="PacketSniffer">Packet Sniffer</string>
+    <string name="Note">Instruction: \r\n1. Select device.\r\n2. Select action and click Start capture.\r\n3. Click Log capture to Stop capture.
+        \r\n4. Check RRC.txt for RRC state capture and log.txt for Packet capture in sdcard.</string>
+    <string name="Ask">Your device is :</string>
+    <string name="Run">Run Capture :</string>
+    <string-array name="Device_arrays">
+        <item>Samsung S3 or higher</item>
+        <item>Samsung S2 or lower</item>
+    </string-array>
+    <string-array name="Action_arrays">
+        <item>Packet and RRC both</item>
+        <item>Packet only</item>
+        <item>RRC only</item>
+    </string-array>
+
+</resources>
